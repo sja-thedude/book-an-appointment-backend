@@ -72,7 +72,11 @@ To run the tests locally :
 - LinkedIn [sjathedude](https://www.linkedin.com/in//)
 
 
+👤 **Shahier Nashaat**
 
+- GitHub: [@githubhandle](https://github.com/ShahierNashaat)
+- Twitter: [@twitterhandle](https://twitter.com/ShahierN)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shahier-nashaat-73519313a/)
 
   
 ## 🤝 Contributing
