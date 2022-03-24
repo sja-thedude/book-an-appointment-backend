@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   resources :addresses
   resources :doctors
   resources :users do
-    resources :reservations
+    resources :reservations, only: %i[index show create destroy]
   end
   # Defines the root path route ("/")
   # root "articles#index"
