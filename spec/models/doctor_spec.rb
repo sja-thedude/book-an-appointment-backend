@@ -19,7 +19,7 @@ RSpec.describe Doctor, type: :model do
 
     it 'Validates the presence of a doctors email' do
       expect(subject).to be_valid
-      subject.email = nil
+      subject.email = 'aristote@gmail.com'
     end
 
     it 'validates the presence of a picture' do
