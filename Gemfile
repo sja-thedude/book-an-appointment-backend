@@ -1,22 +1,24 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.0'
+ruby '3.1.0'
+
+gem 'devise'
+
+gem 'rubocop', '>= 1.0', '< 2.0'
+
+# gem 'rack-cors'
+
+gem 'rack-cors'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.2', '>= 7.0.2.3'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
-gem 'rubocop', '>= 1.0', '< 2.0'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 5.0'
-gem 'rack-cors'
-# device gem for login
-gem 'cancancan'
-gem 'devise'
-gem 'devise-jwt'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
@@ -31,7 +33,7 @@ gem 'devise-jwt'
 # gem "bcrypt", "~> 3.1.7"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+gem 'tzinfo-data'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
@@ -43,10 +45,11 @@ gem 'bootsnap', require: false
 # gem "rack-cors"
 
 group :development, :test do
-  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
+  gem 'byebug', platform: :mri
+  gem 'rspec-rails', '~> 3.5'
+  gem 'factory_girl_rails'
   gem 'capybara'
-  gem 'debug', platforms: %i[mri mingw x64_mingw]
-  gem 'rspec-rails'
+  gem 'database_cleaner'
 end
 
 group :development do
