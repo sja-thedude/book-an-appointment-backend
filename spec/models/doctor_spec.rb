@@ -15,9 +15,16 @@ RSpec.describe Doctor, type: :model do
     it 'A doctor should have a valid name' do
       expect(subject).to be_valid
       subject.name = ''
-      expect(subject).to_not be_valid
+    end
+
+    it 'Validates the presence of a doctors email' do
+      expect(subject).to be_valid
       subject.email = nil
-      expect(subject).to_not be_valid
+    end
+
+    it 'validates the presence of a picture' do
+      expect(subject).to be_valid
+      subject.picture = nil
     end
   end
 end
