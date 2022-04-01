@@ -14,7 +14,7 @@ RSpec.describe Doctor, type: :model do
   describe 'Validations for Doctor Model' do
     it 'A doctor should have a valid name' do
       expect(subject).to be_valid
-      subject.name = ''
+      subject.name = 'Aristote Miler'
     end
 
     it 'Validates the presence of a doctors email' do
