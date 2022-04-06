@@ -17,6 +17,7 @@ gem 'rack-cors'
 gem 'cancancan'
 gem 'devise'
 gem 'devise-jwt'
+gem 'jwt'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
