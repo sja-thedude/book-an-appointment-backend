@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.1.0'
+ruby '3.1.1'
 
 gem 'devise'
 
@@ -10,6 +10,7 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 # gem 'rack-cors'
 
 gem 'rack-cors'
+gem 'ffi'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.2', '>= 7.0.2.3'
