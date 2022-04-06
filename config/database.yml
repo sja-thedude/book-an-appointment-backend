@@ -14,7 +14,7 @@
 # Configure Using Gemfile
 # gem "pg"
 #
-  default: &default
+default: &default
   adapter: postgresql
   encoding: unicode
   # For details on connection pooling, see Rails configuration guide
@@ -22,8 +22,6 @@
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: postgres
   password: recklesslove
-  host: localhost
-  port: 5432
 
 development:
   <<: *default
