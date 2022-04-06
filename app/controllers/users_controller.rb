@@ -8,6 +8,11 @@ class UsersController < ApplicationController
     render json: @users
   end
 
+  def authenticate
+    vaild = User.find_by(email: params[:email]).valid_password(password: params[:password])
+    @user.api_token = Devise.friendly_token.to_s
+  end
+
   # DELETE /users/1
   def destroy
     @user.destroy
