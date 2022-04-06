@@ -11,6 +11,7 @@ class UsersController < ApplicationController
   def authenticate
     vaild = User.find_by(email: params[:email]).valid_password(password: params[:password])
     if valid
+      @user = User.find_by(email: params[:email])
       @user.api_token = Devise.friendly_token.to_s
       @user.save
       respond_to do |format|
