@@ -10,7 +10,17 @@ class UsersController < ApplicationController
 
   def authenticate
     vaild = User.find_by(email: params[:email]).valid_password(password: params[:password])
-    @user.api_token = Devise.friendly_token.to_s
+    if valid
+      @user.api_token = Devise.friendly_token.to_s
+      @user.save
+      respond_to do |format|
+        format.json { render json: @user.api_token, status: :ok }
+      end
+    else
+      respond_to do |format|
+        format.json { render json: 'Incorrect email or password'.to_json, status: :ok }
+      end
+    end
   end
 
   # DELETE /users/1
