@@ -71,8 +71,22 @@ To run the tests locally :
 - Twitter [@sja_thedude](https://twitter.com/sja_thedude)
 - LinkedIn [sjathedude](https://www.linkedin.com/in//)
 
+👤 **Yishak**
 
+- GitHub: [Yishak ,Wes-Isaac](https://github.com/Wes-Isaac)
+- LinkedIn: [@Yishak](https://www.linkedin.com/in/yishak-wesego-b404851a7/) 
 
+👤 **Tinyefuza (Godanah) Gordon** 
+
+- GitHub: [1GORDON](https://github.com/1GORDON)
+- Twitter: [@TinyefuzaG](https://twitter.com/GTinyefuza) 
+- LinkedIn: [Tinyefuza-Gordon](https://www.linkedin.com/in/tinyefuza-gordon/)
+
+👤 **Shahier Nashaat**
+
+- GitHub: [@githubhandle](https://github.com/ShahierNashaat)
+- Twitter: [@twitterhandle](https://twitter.com/ShahierN)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shahier-nashaat-73519313a/)
   
 ## 🤝 Contributing
 
