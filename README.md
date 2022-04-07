@@ -6,6 +6,8 @@ The project we are going to build for the Final Capstone Project is based on an 
 
 Additional description about the project and its features.
 
+The credits of the design of the website goes to [Behance](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign).
+
 ## Learning objectives
 
 - Apply technical knowledge and skills gained in previous modules in a complex project.
