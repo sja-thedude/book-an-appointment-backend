@@ -14,5 +14,5 @@ Rails.application.routes.draw do
     resources :reservations, only: %i[index show create destroy]
   end
   # Defines the root path route ("/")
-  root "doctors#index"
+  # root "doctors#index"
 end
