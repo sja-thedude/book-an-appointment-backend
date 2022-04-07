@@ -27,10 +27,10 @@ Initial state of kanban board:
 <img width="1488" alt="Screenshot 2022-03-21 at 11 46 14 AM" src="https://user-images.githubusercontent.com/70269507/159229160-9caf68f4-c60a-46ff-8de5-fe73a72fa771.png">
 
 # Final number of Members in our team are 4 -
-1 - Syeda Juveria Afreen [@sja-thedude](https://github.com/sja-thedude)
-2 - Wesego Yishak [Yishak ,Wes-Isaac](https://github.com/Wes-Isaac)
-3 - Shahier Nashaat [@githubhandle](https://github.com/ShahierNashaat)
-4 - Tinyefuza Gordon [1GORDON](https://github.com/1GORDON)
+- Syeda Juveria Afreen [@sja-thedude](https://github.com/sja-thedude)
+- Wesego Yishak [Yishak ,Wes-Isaac](https://github.com/Wes-Isaac)
+- Shahier Nashaat [@githubhandle](https://github.com/ShahierNashaat)
+- Tinyefuza Gordon [1GORDON](https://github.com/1GORDON)
 
 ## Live Demo
 
