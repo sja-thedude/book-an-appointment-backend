@@ -32,9 +32,14 @@ Initial state of kanban board:
 - Shahier Nashaat [@githubhandle](https://github.com/ShahierNashaat)
 - Tinyefuza Gordon [1GORDON](https://github.com/1GORDON)
 
-## Live Demo
+## Live
 
-[Live Demo Link](https://livedemo.com)
+[Live Link](https://frontend-doctor-api1.netlify.app/)
+
+## Front End
+
+[book-an-appointment-frontend](https://github.com/sja-thedude/book-an-appointment-frontend)
+
 
 
 ## Getting Started
