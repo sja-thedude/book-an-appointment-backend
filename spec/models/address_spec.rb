@@ -15,6 +15,11 @@ RSpec.describe Address, type: :model do
     expect(subject).to_not be_valid
   end
 
+  it 'Address should has a valid state' do
+    subject.city = nil
+    expect(subject).to_not be_valid
+  end
+
   it 'Address should has a valid city' do
     subject.country = 'London'
     expect(subject).to be_valid
@@ -22,6 +27,11 @@ RSpec.describe Address, type: :model do
 
   it 'Address should has a valid city' do
     subject.country = ''
+    expect(subject).to_not be_valid
+  end
+
+  it 'Address should has a valid city' do
+    subject.country = nil
     expect(subject).to_not be_valid
   end
 
@@ -35,6 +45,11 @@ RSpec.describe Address, type: :model do
     expect(subject).to_not be_valid
   end
 
+  it 'Address should has a valid country' do
+    subject.country = nil
+    expect(subject).to_not be_valid
+  end
+
   it 'Address should has a valid street' do
     subject.street = '9 rue de Bourge 45000'
     expect(subject).to be_valid
@@ -42,6 +57,11 @@ RSpec.describe Address, type: :model do
 
   it 'Address should has a valid street' do
     subject.street = ''
+    expect(subject).to_not be_valid
+  end
+
+  it 'Address should has a valid street' do
+    subject.street = nil
     expect(subject).to_not be_valid
   end
 end
