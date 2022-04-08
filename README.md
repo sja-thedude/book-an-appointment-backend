@@ -71,6 +71,15 @@ To run the tests locally :
 
  ` gem install rspec`
 
+
+## Install Dependensies
+- run `bundle install` in your terminal
+
+## Create the database
+- connect to your psql
+- run `rails db:create` in your terminal
+- run `rails db:migrate` in your terminal
+
 ### Helpful links to solve some issues
 
 * [Could not find gem](https://stackoverflow.com/questions/32491201/could-not-find-gem-pg-0-12-4-ruby-in-any-of-the-gem-sources-listed-in-your)
@@ -79,7 +88,6 @@ To run the tests locally :
 
 
 ## Run the application
--connect to your psql
 -  run `rails s` in your terminal
 
 ## Authors
