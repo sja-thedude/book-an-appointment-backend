@@ -1,0 +1,6 @@
+echo 'my-project-name' > .ruby-gemset
+cd ..
+cd my-project-directory
+gem install bundler
+bundle install
+rspec spec
