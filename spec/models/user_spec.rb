@@ -16,6 +16,11 @@ RSpec.describe User, type: :model do
       expect(subject).to_not be_valid
     end
 
+    it 'that a user has an invalid name' do
+      subject.name = nil
+      expect(subject).to_not be_valid
+    end
+
     it 'that a user has a valid email' do
       subject.email = 'allysaidi@gmail.com'
       expect(subject).to be_valid
@@ -23,6 +28,11 @@ RSpec.describe User, type: :model do
 
     it 'that a user has an invalid email' do
       subject.email = ''
+      expect(subject).to_not be_valid
+    end
+
+    it 'that a user has an invalid email' do
+      subject.email = nil
       expect(subject).to_not be_valid
     end
 
@@ -36,6 +46,11 @@ RSpec.describe User, type: :model do
       expect(subject).to_not be_valid
     end
 
+    it 'that a user has an invalid password' do
+      subject.password = nil
+      expect(subject).to_not be_valid
+    end
+
     it 'that a user has a valid phone_number' do
       subject.phone_number = '0934278456'
       expect(subject).to be_valid
@@ -43,6 +58,11 @@ RSpec.describe User, type: :model do
 
     it 'that a user has an invalid phone_number' do
       subject.phone_number = ''
+      expect(subject).to_not be_valid
+    end
+
+    it 'that a user has an invalid phone_number' do
+      subject.phone_number = nil
       expect(subject).to_not be_valid
     end
   end
