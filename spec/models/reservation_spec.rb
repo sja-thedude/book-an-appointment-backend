@@ -16,6 +16,26 @@ RSpec.describe Reservation, type: :model do
       expect(@reservation).to_not be_valid
     end
 
+    it 'validates the presence of a doctor' do
+      @reservation.doctor_id = 'test'
+      expect(@reservation).to_not be_valid
+    end
+
+    it 'validates the presence of a user' do
+      @reservation.user_id = 'test'
+      expect(@reservation).to_not be_valid
+    end
+
+    it 'validates the presence of a doctor' do
+      @reservation.doctor_id = '1'
+      expect(@reservation).to_not be_valid
+    end
+
+    it 'validates the presence of a user' do
+      @reservation.user_id = '2'
+      expect(@reservation).to_not be_valid
+    end
+
     it 'validates the user_id match' do
       expect(@reservation.user_id).to eq 1
     end
