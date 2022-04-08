@@ -111,9 +111,9 @@ To run the tests locally :
 
 👤 **Shahier Nashaat**
 
-- GitHub: [@githubhandle](https://github.com/ShahierNashaat)
-- Twitter: [@twitterhandle](https://twitter.com/ShahierN)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shahier-nashaat-73519313a/)
+- GitHub: [@ShahierNashaat](https://github.com/ShahierNashaat)
+- Twitter: [@ShahierN](https://twitter.com/ShahierN)
+- LinkedIn: [shahier-nashaat](https://www.linkedin.com/in/shahier-nashaat/)
   
 ## 🤝 Contributing
 
